@@ -29,7 +29,6 @@ The project includes the following routines:
 - Routine for displaying a hex character on a segment rank
 
 ## Documentation
-- [English Documentation](docs/Project_Documentation_EN.md)
 - [Original Documentation (Romanian)](docs/Documentatie_Proiect.pdf)
 - [Hardware Schematic](docs/SCH_Schema_Hardware_2025-01-07.pdf)
 
