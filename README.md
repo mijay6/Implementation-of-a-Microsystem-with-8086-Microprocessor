@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![University: UPT](https://img.shields.io/badge/University-Politehnica%20Timisoara-red.svg)](https://www.upt.ro/)
 [![Status: Academic](https://img.shields.io/badge/Status-Academic%20Project-success.svg)](https://github.com/mijay6/Implementarea-unui-Microsistem-cu-Microprocesorul-8086)
+[![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg) ](https://github.com/mijay6/Implementarea-unui-Microsistem-cu-Microprocesorul-8086/releases) 
 
 ## Description
 This project presents the design and implementation of a microsystem based on the 8086 microprocessor. The system includes a central unit, EPROM and SRAM memories, serial and parallel interfaces, mini-keyboard, LEDs, 7-segment display, and LCD module, as well as programs for its configuration and operation.
