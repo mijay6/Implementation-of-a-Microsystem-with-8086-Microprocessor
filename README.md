@@ -1,31 +1,54 @@
-# Implementarea unui Microsistem cu Microprocesorul 8086
+# Implementation of a Microsystem with 8086 Microprocessor
 
-## Descriere
-Acest proiect prezintă proiectarea și implementarea unui microsistem bazat pe microprocesorul 8086. Sistemul include unitate centrală, memorii EPROM și SRAM, interfețe seriale și paralele, minitastatură, leduri, afișaj cu 7 segmente și modul LCD, precum și programe pentru configurarea și funcționarea acestuia.
+[![Assembly](https://img.shields.io/badge/language-Assembly-blue.svg)](https://en.wikipedia.org/wiki/Assembly_language)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![University: UPT](https://img.shields.io/badge/University-Politehnica%20Timisoara-red.svg)](https://www.upt.ro/)
+[![Status: Academic](https://img.shields.io/badge/Status-Academic%20Project-success.svg)](https://github.com/mijay6/Implementarea-unui-Microsistem-cu-Microprocesorul-8086)
 
-## Structura microsistemului
-- Unitate centrală cu microprocesorul 8086
-- 128 KB memorie EPROM, utilizând circuite 27C512
-- 64 KB memorie SRAM, utilizând circuite 62256
-- Interfaţă serială, cu circuitul 8251, plasată în zona 04D0H – 04D2H sau 05D0H – 05D2H, în funcţie de poziţia microcomutatorului S1
-- Interfaţă paralelă, cu circuitul 8255, plasată în zona 0250H– 0256H sau 0A50H – 0A56H, în funcţie de poziţia microcomutatorului S2
-- O minitastatură cu 9 contacte
-- 10 led-uri
-- Un modul de afişare cu 7 segmente, cu 8 ranguri (se pot afişa maxim 8 caractere hexa simultan)
-- Un modul LCD, cu 2 linii a câte 16 caractere fiecare
+## Description
+This project presents the design and implementation of a microsystem based on the 8086 microprocessor. The system includes a central unit, EPROM and SRAM memories, serial and parallel interfaces, mini-keyboard, LEDs, 7-segment display, and LCD module, as well as programs for its configuration and operation.
 
-## Programe
-Proiectul include următoarele rutine:
-- Rutine de programare ale circuitelor 8251 şi 8255
-- Rutine de emisie/recepţie caracter pe interfaţa serială
-- Rutine pentru controlul afișajului cu 7 segmente
-- Rutine pentru controlul ledurilor
-- Rutine pentru minitastatură
+## Microsystem Structure
+- Central unit with 8086 microprocessor
+- 128 KB EPROM memory, using 27C512 circuits
+- 64 KB SRAM memory, using 62256 circuits
+- Serial interface with 8251 circuit, placed in the 04D0H – 04D2H or 05D0H – 05D2H area, depending on the position of microswitch S1
+- Parallel interface with 8255 circuit, placed in the 0250H– 0256H or 0A50H – 0A56H area, depending on the position of microswitch S2
+- A mini-keyboard with 9 contacts
+- 10 LEDs
+- A 7-segment display module with 8 ranks (maximum 8 hex characters can be displayed simultaneously)
+- An LCD module with 2 lines of 16 characters each
 
-## Autor
+## Programs
+The project includes the following routines:
+- Programming routines for 8251 and 8255 circuits
+- Character transmission/reception routines on the serial interface
+- Character transmission routine on parallel interface
+- Mini-keyboard scanning routine
+- LED on/off routine
+- Routine for displaying a hex character on a segment rank
+
+## Documentation
+- [English Documentation](docs/Project_Documentation_EN.md)
+- [Original Documentation (Romanian)](docs/Documentatie_Proiect.pdf)
+- [Hardware Schematic](docs/SCH_Schema_Hardware_2025-01-07.pdf)
+
+## Source Code
+All assembly routines are available in the [src](src/) directory:
+- Serial character transmission/reception
+- Parallel character transmission
+- LED control
+- Mini-keyboard handling
+- Circuit programming
+- Seven-segment display control
+
+## Author
 Dobra Mihai
 
-Universitatea Politehnica Timișoara  
-Facultatea de Automatica si Calculatoare  
-Proiectarea cu Microprocesoare  
-Anul universitar 2024-2025
+Politehnica University of Timișoara  
+Faculty of Automation and Computer Science  
+Microprocessor Design  
+Academic Year 2024-2025
+
+## Contributing
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
