@@ -20,7 +20,7 @@ This project presents the design and implementation of a microsystem based on th
 - An LCD module with 2 lines of 16 characters each
 
 ## Programs
-The project includes the following routines:
+All assembly routines are available in the [src](src/) directory:
 - Programming routines for 8251 and 8255 circuits
 - Character transmission/reception routines on the serial interface
 - Character transmission routine on parallel interface
@@ -31,15 +31,6 @@ The project includes the following routines:
 ## Documentation
 - [Original Documentation (Romanian)](docs/Documentatie_Proiect.pdf)
 - [Hardware Schematic](docs/SCH_Schema_Hardware_2025-01-07.pdf)
-
-## Source Code
-All assembly routines are available in the [src](src/) directory:
-- Serial character transmission/reception
-- Parallel character transmission
-- LED control
-- Mini-keyboard handling
-- Circuit programming
-- Seven-segment display control
 
 ## Author
 Dobra Mihai
