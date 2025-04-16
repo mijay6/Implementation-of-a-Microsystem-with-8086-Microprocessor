@@ -1,4 +1,4 @@
-# Contributing to Implementarea unui Microsistem cu Microprocesorul 8086
+# Contributing to Implementation-of-a-Microsystem-with-8086-Microprocessor
 
 Thank you for considering contributing to this project! This document provides guidelines for contributions.
 
